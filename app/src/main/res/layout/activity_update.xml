@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.UpdateActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <EditText
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/editTextIDXe"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="id xe"
+            android:background="@drawable/lavender_boder"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp" />
+        <EditText
+            android:id="@+id/editTextTenXe"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="ten xe"
+            android:background="@drawable/lavender_boder"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp" />
+        <EditText
+            android:id="@+id/editTextBienSoXe"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="bien so"
+            android:background="@drawable/lavender_boder"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp" />
+        <EditText
+            android:id="@+id/editTextSoGheXe"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="so ghe"
+            android:background="@drawable/lavender_boder"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="20dp">
+            <Button
+                android:background="@drawable/lavender_boder"
+                android:id="@+id/buttonUpdateXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="20dp"/>
+            <Button
+                android:background="@drawable/lavender_boder"
+                android:id="@+id/buttonBackInFragXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="20dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

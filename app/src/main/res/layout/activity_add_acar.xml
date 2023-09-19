@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddACarActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập thông tin của 1 xe mới"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/editTextAddTenXe"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nhập Tên Xe"
+            android:background="@drawable/lavender_boder"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp" />
+        <EditText
+            android:id="@+id/editTextAddBienSoXe"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nhập Biển Số Xe"
+            android:background="@drawable/lavender_boder"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp" />
+        <EditText
+            android:id="@+id/editTextAddSoGheXe"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nhập Số Ghế"
+            android:background="@drawable/lavender_boder"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_weight="3">
+            <Button
+                android:background="@drawable/lavender_boder"
+                android:id="@+id/buttonAddXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xác nhận"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="20dp"/>
+
+            <Button
+                android:background="@drawable/lavender_boder"
+                android:id="@+id/buttonCancelXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hủy"
+                android:layout_weight="2"
+                android:layout_marginHorizontal="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
